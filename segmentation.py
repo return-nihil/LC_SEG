@@ -15,8 +15,8 @@ from plotters import *
 
 # PATHS
 dir_path = os.path.dirname(os.path.realpath(__file__))
-AUDIO_FOLDER = os.path.join(dir_path, 'audio_folder') 
-ANALYSIS_FOLDER = os.path.join(dir_path, 'analysis_folder')
+AUDIO_FOLDER = os.path.join(dir_path, 'audio') 
+ANALYSIS_FOLDER = os.path.join(dir_path, 'analysis')
 CONFIG_FILE = os.path.join(dir_path, 'config.yaml')
 
 
