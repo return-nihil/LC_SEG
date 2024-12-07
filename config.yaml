@@ -1,0 +1,28 @@
+# PARAMETERS FOR SEGMENTATION
+
+# Target sampling rate
+target_sr: 16000     
+
+# FFT size     
+n_fft: 8192       
+
+# Hop length 
+hop_length: 4096    
+
+# Smoothing window length for novelty function
+smooth_wl: 100        
+
+# Minimum distance between adjacent peaks
+min_dist: 30   
+
+# Threshold (normalized) for peak detection
+thresh: 0.6           
+
+# Number of past frames to include in stack memory
+stack_mem: 1      
+
+# Plot single features
+plot_feat: True
+
+# Plot spectrograms
+plot_spec: True
